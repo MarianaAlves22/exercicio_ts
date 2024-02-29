@@ -1,20 +1,24 @@
-type pessoas = {
-    nome: string;
-    trabalho?: string[];
-    idade: number;
+function pessoa(nome: string): string {
+        return `Olá ${nome}`;
 }
 
-const pessoa1: pessoas = {
-        nome: "Julia",
-        trabalho: ["Bombeira"],
-        idade: 25
-}
+// type pessoas = {
+//     nome: string;
+//     trabalho?: string[];
+//     idade: number;
+// }
 
-const pessoa2: pessoas = {
-        nome: "Roberto",
-        trabalho: ["Arquiteto"],
-        idade: 30
-}
+// const pessoa1: pessoas = {
+//         nome: "Julia",
+//         trabalho: ["Bombeira"],
+//         idade: 25
+// }
 
-console.log("olá " + pessoa1.nome);
-console.log("olá " + pessoa2.nome);
+// const pessoa2: pessoas = {
+//         nome: "Roberto",
+//         trabalho: ["Arquiteto"],
+//         idade: 30
+// }
+
+// console.log("olá " + pessoa1.nome);
+// console.log("olá " + pessoa2.nome);
